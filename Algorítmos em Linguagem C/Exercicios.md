@@ -30,7 +30,7 @@ A documentação informa que a função recebe a informação inutil do inteiro 
 ------
 1.1.4 Critique a seguinte documentação de uma função:
 
-"Esta função recebe números inteiros p, q, r tais que p <= q <= r e devolve a média aritmética dos três números."
+"Esta função recebe números inteiros p, q, r tais que p <= q <= r e devolve a média aritmética dos três números."
 
 A documentação é redundante e pode ser resumida em:
 "Esta função recebe números inteiros p <= q <= r e devolve a média aritmética dos três números."
