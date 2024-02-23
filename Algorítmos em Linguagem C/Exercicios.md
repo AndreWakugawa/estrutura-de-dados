@@ -62,7 +62,7 @@ int soma (int n, int v[]) {
 	for (i = 0; i < n; i++) x += v[i];
 	return x; }
 ~~~
-x é a soma de todos os elementos de v[0..0-1]
+x é a soma de todos os elementos de v[0..i-1]
 
 ------
 
@@ -73,4 +73,4 @@ int onde (int x, int v[], int n) {
 	while (j < n && v[j] != x) j += 1;
 	return j; }
 ~~~
-j é o index v[j-1] AAAAA
+j é a posição (index) em v[j-1]
